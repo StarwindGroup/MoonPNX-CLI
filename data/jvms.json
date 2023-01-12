@@ -1,0 +1,77 @@
+[
+  {
+    "name": "OracleJDK",
+    "download": {
+      "windows-x86": {
+        "url": "https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip",
+        "size": "172MB"
+      },
+      "linux-x86": {
+        "url": "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz",
+        "size": "172MB"
+      },
+      "linux-aarch": {
+        "url": "https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz",
+        "size": "172MB"
+      },
+      "macos-x86": {
+        "url": "https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.tar.gz",
+        "size": "172MB"
+      },
+      "macos-aarch": {
+        "url": "https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz",
+        "size": "172MB"
+      }
+    }
+  },
+  {
+    "name": "GraalVM",
+    "download": {
+      "windows-x86": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-windows-amd64-22.2.0.zip",
+        "size": "244MB"
+      },
+      "linux-x86": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-linux-amd64-22.2.0.tar.gz",
+        "size": "251MB"
+      },
+      "linux-aarch": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-linux-aarch64-22.2.0.tar.gz",
+        "size": "249MB"
+      },
+      "macos-x86": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-darwin-amd64-22.2.0.tar.gz",
+        "size": "248MB"
+      },
+      "macos-aarch": {
+        "url": "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-darwin-aarch64-22.2.0.tar.gz",
+        "size": "245MB"
+      }
+    }
+  },
+  {
+    "name": "AdoptOpenJDK",
+    "download": {
+      "windows-x86": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/windows/OpenJDK17U-jre_x64_windows_hotspot_17.0.5_8.zip",
+        "size": "41.1MB"
+      },
+      "macos-x86": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/mac/OpenJDK17U-jre_x64_mac_hotspot_17.0.5_8.tar.gz",
+        "size": "41.6MB"
+      },
+      "linux-x86": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/linux/OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz",
+        "size": "43.8MB"
+      },
+      "macos-aarch": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/aarch64/mac/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.5_8.tar.gz",
+        "size": "34.5MB"
+      },
+      "linux-aarch": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/aarch64/linux/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.5_8.tar.gz",
+        "size": "43.2MB"
+      }
+    }
+  }
+]
